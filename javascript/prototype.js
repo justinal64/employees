@@ -63,21 +63,21 @@ function FieldOffice() {
 }
 FieldOffice.prototype = new Department();
 
-function nashville() {
-    this.city = "Nashville";
-}
+// function nashville() {
+//     this.city = "Nashville";
+// }
 
-function dallas() {
-    this.city = "Dallas";
-}
+// function dallas() {
+//     this.city = "Dallas";
+// }
 
-function newYork() {
-    this.city = "New York";
-}
+// function newYork() {
+//     this.city = "New York";
+// }
 
-function paloAlto() {
-    this.city = "Pal Alto";
-}
+// function paloAlto() {
+//     this.city = "Pal Alto";
+// }
 
 // Department is on their prototype chain
 function Headquarters() {
@@ -89,7 +89,7 @@ var employee1 = new Operations();
 employee1.prototype = new FieldOffice();
 employee1.firstName = "Justin";
 employee1.lastName = "Leggett";
-employee1.city = new nashville();
+// employee1.city = new nashville();
 console.log("employee1", employee1);
 console.log(employee1.firstName + " " + employee1.lastName + " works in " + employee1.departmentName + " at the " + employee1.city);
 // console.log("employee1", employee1);
