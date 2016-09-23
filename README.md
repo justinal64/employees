@@ -25,7 +25,7 @@ Next type the following:
 ```
 http-server -p 9999
 ```
-Then navigate to http://localhost:9999 in your browser and open (inspector) in chrome and navigator to the "Console" tab to view the answer.
+Then navigate to http://localhost:9999 in your browser to view the output.
 
 ## Screenshot
 ![Output](img/output.png)
