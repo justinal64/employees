@@ -8,16 +8,19 @@ This is a introduction to [Prototypal Inheritance](https://developer.mozilla.org
 
 ## How to run
 In your terminal run the following commands:
+<br />
 Navigate to the lib folder in your terminal and type:
 ```
 npm install
 ```
 This will install all of the dependencies for the project.
+<br />
 Next type the following:
 ```
 cd ..
 ```
 This will move you back to the root folder of the project.
+<br />
 Next type the following:
 ```
 http-server -p 9999
