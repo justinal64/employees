@@ -24,7 +24,7 @@ http-server -p 9999
 ```
 Then navigate to http://localhost:9999 in your browser and open (inspector) in chrome and navigator to the "Console" tab to view the answer.
 
-## Screenshots
+## Screenshot
 ![Output](img/output.png)
 
 ## Contributors
