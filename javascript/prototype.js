@@ -56,26 +56,26 @@ function Headquarters() {
 }
 Headquarters.prototype = new Clinician();
 
-var justinLeggett = new FieldOffice();
-justinLeggett.city = new nashville();
-justinLeggett.name("Justin", "Smith");
+var justinSmith = new FieldOffice();
+justinSmith.city = new nashville();
+justinSmith.name("Justin", "Smith");
 
-var katieLeggett = new Headquarters();
-katieLeggett.city = new dallas();
-katieLeggett.name("Katie", "Smith");
+var katieSmith = new Headquarters();
+katieSmith.city = new dallas();
+katieSmith.name("Katie", "Smith");
 
-var kallieLeggett = new FieldOffice();
-kallieLeggett.city = new paloAlto();
-kallieLeggett.name("Kallie", "Smith");
+var kallieSmith = new FieldOffice();
+kallieSmith.city = new paloAlto();
+kallieSmith.name("Kallie", "Smith");
 
-var zoeyLeggett = new Headquarters();
-zoeyLeggett.city = new newYork();
-zoeyLeggett.name("Zoey", "Smith");
+var zoeySmith = new Headquarters();
+zoeySmith.city = new newYork();
+zoeySmith.name("Zoey", "Smith");
 
-var jLString = "<div>" + justinLeggett.firstName + " " + justinLeggett.lastName + " works in " + justinLeggett.field + ", in the " + justinLeggett.city.city + " " + justinLeggett.department + "and specializes in " + justinLeggett.specialist + "." + "</div>";
-var kLString = "<div>" + katieLeggett.firstName + " " + katieLeggett.lastName + " works in " + katieLeggett.field + ", in the " + katieLeggett.city.city + " " + katieLeggett.department + "and specializes in " + katieLeggett.specialist + "." + "</div>";
-var kaLString = "<div>" + kallieLeggett.firstName + " " + kallieLeggett.lastName + " works in " + kallieLeggett.field + ", in the " + kallieLeggett.city.city + " " + kallieLeggett.department + "and specializes in " + kallieLeggett.specialist + "." + "</div>";
-var zLString = "<div>" + zoeyLeggett.firstName + " " + zoeyLeggett.lastName + " works in " + zoeyLeggett.field + ", in the " + zoeyLeggett.city.city + " " + zoeyLeggett.department + "and specializes in " + zoeyLeggett.specialist + "." + "</div>";
+var jLString = "<div>" + justinSmith.firstName + " " + justinSmith.lastName + " works in " + justinSmith.field + ", in the " + justinSmith.city.city + " " + justinSmith.department + "and specializes in " + justinSmith.specialist + "." + "</div>";
+var kLString = "<div>" + katieSmith.firstName + " " + katieSmith.lastName + " works in " + katieSmith.field + ", in the " + katieSmith.city.city + " " + katieSmith.department + "and specializes in " + katieSmith.specialist + "." + "</div>";
+var kaLString = "<div>" + kallieSmith.firstName + " " + kallieSmith.lastName + " works in " + kallieSmith.field + ", in the " + kallieSmith.city.city + " " + kallieSmith.department + "and specializes in " + kallieSmith.specialist + "." + "</div>";
+var zLString = "<div>" + zoeySmith.firstName + " " + zoeySmith.lastName + " works in " + zoeySmith.field + ", in the " + zoeySmith.city.city + " " + zoeySmith.department + "and specializes in " + zoeySmith.specialist + "." + "</div>";
 
 var $output = $('#output');
 $output.append(jLString);
