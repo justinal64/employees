@@ -25,7 +25,7 @@ Next type the following:
 ```
 http-server -p 9999
 ```
-Then navigate to http://localhost:9999 in your browser to view the output.
+Then navigate to [http://localhost:9999](http://localhost:9999) in your browser to view the output.
 
 ## Screenshot
 ![Output](img/output.png)
